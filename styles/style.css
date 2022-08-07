@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+input, select{
+    width: 50%;
+    height: 40px; 
+    box-sizing: border-box;
+    margin-bottom: 4%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#form{
+    width: 40%;
+}
+
+button{
+    background-color: gray;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 82 , 0);
+}
