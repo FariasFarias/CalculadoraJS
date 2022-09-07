@@ -35,6 +35,18 @@ function calcular(num1, num2){
             document.getElementById("resultado").innerHTML = `O resultado da subutração é ${calculo}`
             break
 
+        case "%":
+            calculo = (num1 % num2)
+            if(num2 != 0 ) // para limitar denomidador igual a zero
+            {
+                document.getElementById("resultado").innerHTML = `O resultado da subutração é ${calculo}`
+            } 
+            else
+            {
+                alert("Insira um valor diferente de zero no denominador (segundo número)")
+            }
+            break
+            
         default:
             alert("Desculpe, houve algum erro inesperado")
     }
