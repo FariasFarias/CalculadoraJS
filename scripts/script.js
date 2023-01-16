@@ -6,6 +6,8 @@ function calcular(num1, num2){
 
     selector = document.getElementById("selector").value
     
+    let calculo = 0;
+
     switch(selector)
     {
         case "+":
@@ -39,7 +41,7 @@ function calcular(num1, num2){
             calculo = (num1 % num2)
             if(num2 != 0 ) // para limitar denomidador igual a zero
             {
-                document.getElementById("resultado").innerHTML = `O resultado da subutração é ${calculo}`
+                document.getElementById("resultado").innerHTML = `O resultado do módulo é ${calculo}`
             } 
             else
             {
